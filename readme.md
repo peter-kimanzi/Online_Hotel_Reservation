@@ -2,7 +2,7 @@ FIRST Download
 
 1.XAMPP
 
-2."TEXT EDITOR" NOTEPAD++ OR SUBLIME TEXT 3 / ETC.
+2."TEXT EDITOR" Visual Studio OR SUBLIME TEXT 3 / ETC.
 
 3"Online Hotel Reservation "
 
