@@ -6,7 +6,7 @@ FIRST Download
 
 3"Hotel Reservation website"
 
-4. Download the zip file/ download winrar
+4. Download the zip file
 
 5. Extract the file and copy "Online Hotel Reservation " folder
 
