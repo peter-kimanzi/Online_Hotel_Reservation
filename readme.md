@@ -24,4 +24,3 @@ user: admin
 pass: admin
 
 
-Subcribe to our Youtube Channel **** SerBermz ****
