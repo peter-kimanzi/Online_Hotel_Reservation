@@ -8,10 +8,6 @@ FIRST Download
 
 4. Download the zip file
 
-5. Extract the file and copy "Online Hotel Reservation " folder
-
-6.Paste inside root directory/ where you install xammp local disk C: drive D: drive E: paste: (for xampp/htdocs, 
-
 7. Open PHPMyAdmin (http://localhost/phpmyadmin)
 
 8. Create a database with name db_hor
