@@ -4,7 +4,7 @@ FIRST Download
 
 2."TEXT EDITOR" Visual Studio OR SUBLIME TEXT 3 / ETC.
 
-3"Online Hotel Reservation "
+3"Hotel Reservation website"
 
 4. Download the zip file/ download winrar
 
