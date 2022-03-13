@@ -1,0 +1,383 @@
+* {
+    margin: 0 auto;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+section.section-padding {
+    padding: 80px 0;
+}
+
+.header-area {
+    background-color: #563D7C;
+    padding: 10px;
+}
+
+.header-absoulate {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    background: none;
+    color: #563D7C;
+    margin-bottom: 30px;
+    margin-top: 6px;
+}
+
+.logo a i.fa.fa-home {
+    color: #563D7C;
+    font-size: 30px;
+    margin-right: 6px;
+}
+
+.logo span {
+    display: inline-block;
+    color: #563D7C;
+    margin-left: 10px;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.main-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.main-menu ul li {
+    display: inline-block;
+}
+
+.main-menu ul li a {
+    display: block;
+    padding: 5px 10px;
+    color: #563D7C;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.main-menu ul li a:hover {
+    background: #563D7C;
+    color: #fff;
+}
+
+span.social-icon a {
+    color: #563D7C;
+    font-size: 18px;
+    margin: 2px 5px;
+    display: inline-block;
+}
+
+span#na {
+    font-weight: 300;
+}
+
+.slider-bg-1 {
+    background-image: url(assets/img/student-bg-1.jpg);
+}
+
+.slider-bg-2 {
+    background-image: url(assets/img/student-bg-2.jpg);
+}
+
+.single-slider-item {
+    background-position: center;
+    background-size: cover;
+    min-height: 400px;
+    width: 100%;
+    display: table;
+    padding-top: 50px;
+    background-color: #333;
+}
+
+.slider-inner {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.slide-text h2 {
+    font-size: 30px;
+    color: #fff;
+    background: #563D7C;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.slide-text p {
+    color: #333;
+    font-size: 23px;
+}
+
+a.boxed-btn {
+    display: inline-block;
+    background: #563D7C;
+    color: #fff;
+    padding: 13px 20px;
+    font-size: 16px;
+    text-transform: capitalize;
+    border-radius: 12px;
+}
+
+.slider-content .owl-dots div {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.slider-content .owl-dots {
+    position: relative;
+    left: 0;
+    bottom: 28px;
+    margin: 0 auto;
+    width: 1110px;
+    text-align: center;
+}
+
+.slider-content .owl-dots div.active {
+    background: #563D7C;
+}
+
+/*============================
+Form CSS
+==============================*/
+
+.section-title h3 {
+    background: #563D7C;
+    padding: 10px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h3#et {
+    text-transform: inherit;
+}
+
+.section-title .col-md-12 {
+    margin: 0;
+    padding: 0;
+}
+
+form label {
+    text-transform: capitalize;
+    font-size: 16px;
+    margin: 0;
+    display: inline-block;
+}
+
+form {
+    margin-bottom: 35px;
+}
+
+form input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddd;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.left-side-form {
+    margin-right: 25px;
+}
+
+.right-side-form {
+    margin-left: 25px;
+}
+
+select {
+    width: 25%;
+    padding: 10px;
+    border: 1px solid #dddd;
+    text-transform: capitalize;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+input[type="radio"] {
+    margin: 0 8px;
+    margin-bottom: 70px;
+}
+
+input[type="submit"] {
+    background: #563D7C;
+    border: none;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 10px;
+    outline: none;
+}
+
+h5 span.error,
+span.error {
+    font-size: 16px;
+    color: #BE4B49;
+    margin-left: 5%;
+}
+
+.errorMessage {
+    display: block;
+    color: #BE4B49;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.successMessage {
+    display: block;
+    color: #00770D;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+/*=================================
+View page CSS
+====================================*/
+
+table {
+    /*	background-color: #f8f8f8;*/
+    color: #333;
+    border: none;
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 35px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #563D7C;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid #dddd;
+}
+
+td {
+    border: 1px solid #dddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.action-e {
+    display: block;
+    background: #00770D;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.action-d {
+    display: block;
+    background: #BE4B49;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.action-e:hover,
+.action-d:hover {
+    color: #fff;
+}
+
+.action-d i.fa,
+a.action-e i.fa {
+    display: block;
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+
+/*===============================
+Footer CSS
+=================================*/
+footer {
+    background-color: #CFCBCA;
+    padding: 50px 0;
+}
+
+.widget p {
+    color: #333;
+    margin-right: 20px;
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+footer h3 {
+    color: #563D7C;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-menu li {
+    display: block;
+}
+
+.footer-menu ul li a {
+    color: #333;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.copy-right {
+    border-top: 1px solid #999;
+    width: 100%;
+    text-align: center;
+    padding-top: 6px;
+    margin-top: 15px;
+    color: #555;
+}
+
+.content-area {
+    padding-bottom: 30px;
+}
+
+div#padding {
+    padding: 0 60px;
+}

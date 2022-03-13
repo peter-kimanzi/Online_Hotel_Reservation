@@ -1,0 +1,13 @@
+==========================================
+Instruction for using this project
+==========================================
+
+*** This is a project for learning basic things in PHP.
+
+*** Folder name is studentADD 
+
+*** sql file is inside the database folder. Database name is "db_admission".
+First create a new database named as db_admission 
+and import the sql file in your server, i.e XAMPP.
+
+*** Then run the project.
