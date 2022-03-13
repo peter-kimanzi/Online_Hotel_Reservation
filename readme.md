@@ -8,13 +8,13 @@ FIRST Download
 
 4. Download the zip file
 
-7. Open PHPMyAdmin (http://localhost/phpmyadmin)
+5. Open PHPMyAdmin (http://localhost/phpmyadmin)
 
-8. Create a database with name db_hor
+6. Create a database with name db_hor
 
-6. Import db_hor.sql file(given inside the zip package in SQL file folder)
+7. Import db_hor.sql file(given inside the zip package in SQL file folder)
 
-7.Run the script http://localhost/Online_Hotel_Reservation 
+8.Run the script http://localhost/Online_Hotel_Reservation 
 
 
 **LOGIN DETAILS** 
